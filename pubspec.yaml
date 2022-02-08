@@ -10,10 +10,22 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  animated_text_kit: ^4.2.1
-  shimmer: ^2.0.0
+#  animated_text_kit: ^4.2.1
+#  shimmer:
+#    git:
+#      url: https://github.com/hnvn/flutter_shimmer
+#      ref: revert-10-master
   cupertino_icons: ^1.0.2
+
   flutter_svg: ^1.0.3
+
+  carousel_slider:
+    git:
+      url: https://github.com/serenader2014/flutter_carousel_slider
+      ref: master
+
+  import_sorter: ^4.6.0
+
 
 dev_dependencies:
   build_runner: ^1.11.5
@@ -33,7 +45,8 @@ flutter:
   uses-material-design: true
   assets:
 
-    - assets/images/1643376671baby-color-silhouette-low-poly.svg
+     - assets/images/1643376671baby-color-silhouette-low-poly.svg
+
 
 #  fonts:
 #    - family: IrishGrover
